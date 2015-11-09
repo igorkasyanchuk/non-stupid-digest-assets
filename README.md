@@ -6,7 +6,9 @@ What is it?
 
 In Rails 4, there is no way to by default compile both digest and non-digest assets. This is a pain in the arse for almost everyone developing a Rails 4 app. This gem solves the problem with the minimum possible effort.
 
-This branch includes fix for `aliasing.rb:32:in `alias_method': undefined method `compile' for class `Sprockets::Manifest' (NameError)`
+This branch includes fix for 
+  
+    aliasing.rb:32:in `alias_method': undefined method `compile' for class `Sprockets::Manifest' (NameError)
 
 How do I install it?
 --------------------
